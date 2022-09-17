@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Centimeter">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI CALCULATOR"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/maleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MALE"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/femaleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEMALE"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="60dp"></TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textSize="30sp"
+            android:textColor="@color/teal_200"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/kgET"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:hint="KG"
+            android:gravity="center"
+            android:layout_marginLeft="77dp"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centimeter"
+            android:textSize="30sp"
+            android:textColor="@color/teal_200"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/meterET"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:hint="CM"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"></EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="BMI"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/resultTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI Result View"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/situationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="Situation"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

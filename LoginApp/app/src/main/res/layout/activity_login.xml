@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Username:"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:background="@drawable/back"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password:"
+        android:textColor="@color/white"
+        android:inputType="numberPassword"
+        android:background="@drawable/back"
+        android:textSize="25dp"
+        android:textColorHint="@color/white"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="login"
+        android:textSize="25dp"/>
+
+</LinearLayout>

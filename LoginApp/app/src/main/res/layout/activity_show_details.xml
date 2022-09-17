@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   android:background="@drawable/back2"
+    tools:context=".ShowDetails">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="According to your scale"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/meterTV"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meter Scale"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/cmTV"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Centimeter Scale"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+
+
+
+
+</LinearLayout>
